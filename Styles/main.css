@@ -84,18 +84,21 @@ main.main {
 }
 main.main .top-section {
   margin: 3em auto 0;
-  max-width: 300px;
   text-align: center;
+  text-transform: none;
 }
 main.main .top-section h1 {
+  max-width: 300px;
   color: #502050;
-  line-height: 1.4;
+  line-height: 1;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1em;
 }
 main.main .top-section p {
+  max-width: 400px;
   color: #937b92;
+  font-weight: 700;
 }
 main.main .bottom-section {
   margin-top: 5em;
@@ -121,7 +124,7 @@ main.main .cards .card {
   margin-bottom: 1em;
   border-radius: 10px;
   background-color: #502050;
-  color: white;
+  color: #f7f2f7;
 }
 main.main .cards .card .img-name-container {
   display: flex;
@@ -138,6 +141,9 @@ main.main .cards .card .img-name-container .name span {
 }
 main.main .cards .card .img-name-container .name span:last-child {
   color: #ee68a4;
+}
+main.main .cards blockquote {
+  text-transform: none;
 }
 @media (min-width: 800px) {
   main.main .container {

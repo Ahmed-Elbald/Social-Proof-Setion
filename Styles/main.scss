@@ -85,19 +85,22 @@ main.main {
 
   .top-section {
     margin: 3em auto 0;
-    max-width: 300px;
     text-align: center;
+    text-transform: none;
 
     h1 {
+      max-width: 300px;
       color: $darkMagenta;
-      line-height: 1.4;
+      line-height: 1;
       font-weight: 700;
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 1em;
     }
 
     p {
+      max-width: 400px;
       color: $arkGrayishMagenta;
+      font-weight: 700;
     }
   }
 
@@ -130,7 +133,7 @@ main.main {
       margin-bottom: 1em;
       border-radius: 10px;
       background-color: $darkMagenta;
-      color: white;
+      color: $lightGrayishMagenta;
 
       .img-name-container {
         display: flex;
@@ -153,6 +156,10 @@ main.main {
           }
         }
       }
+    }
+
+    blockquote {
+      text-transform: none;
     }
   }
 
