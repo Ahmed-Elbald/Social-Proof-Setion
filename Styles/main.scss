@@ -84,12 +84,17 @@ main.main {
   padding: 4em 0;
 
   .top-section {
+    max-width: 350px;
     margin: 3em auto 0;
     text-align: center;
     text-transform: none;
+    margin-inline: auto;
+
+    @include min-mq(800px) {
+      margin-inline: unset;
+    }
 
     h1 {
-      max-width: 300px;
       color: $darkMagenta;
       line-height: 1;
       font-weight: 700;
@@ -98,7 +103,6 @@ main.main {
     }
 
     p {
-      max-width: 400px;
       color: $arkGrayishMagenta;
       font-weight: 700;
     }
